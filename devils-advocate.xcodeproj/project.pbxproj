@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7412EE5131863BBD9E288B3A /* Pods_devils_advocate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F47C728BEC717ED5BAC64 /* Pods_devils_advocate.framework */; };
+		DC05BD222453530900840984 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC05BD212453530900840984 /* GoogleService-Info.plist */; };
+		DC05BD24245355B200840984 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05BD23245355B200840984 /* ArticlesTableViewController.swift */; };
+		DC05BD26245355E400840984 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05BD25245355E400840984 /* Article.swift */; };
+		DC05BD2824536D0500840984 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05BD2724536D0500840984 /* ArticleDetailViewController.swift */; };
+		DC05BD2A245372D600840984 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05BD29245372D600840984 /* Author.swift */; };
+		DC578F612453EA4700331BF2 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC578F642454BC3000331BF2 /* SectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC578F632454BC3000331BF2 /* SectionsTableViewController.swift */; };
+		DC578F662454BC6E00331BF2 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC578F652454BC6E00331BF2 /* Section.swift */; };
+		DC578F682454BE7900331BF2 /* SectionDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC578F672454BE7900331BF2 /* SectionDetailTableViewController.swift */; };
+		DC578F6A2454C07300331BF2 /* addedFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC578F692454C07300331BF2 /* addedFeatures.swift */; };
+		DC578F6C2454C1DF00331BF2 /* AuthorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC578F6B2454C1DF00331BF2 /* AuthorsTableViewController.swift */; };
+		DC578F6E2454C2A600331BF2 /* AuthorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC578F6D2454C2A600331BF2 /* AuthorDetailViewController.swift */; };
+		DC578F702454D09A00331BF2 /* AuthorDetailArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC578F6F2454D09A00331BF2 /* AuthorDetailArticlesTableViewController.swift */; };
 		DC58828124534A14004883FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC58828024534A14004883FA /* AppDelegate.swift */; };
 		DC58828324534A14004883FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC58828224534A14004883FA /* SceneDelegate.swift */; };
 		DC58828524534A14004883FA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC58828424534A14004883FA /* FirstViewController.swift */; };
@@ -15,10 +29,49 @@
 		DC58828D24534A14004883FA /* devils_advocate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC58828B24534A14004883FA /* devils_advocate.xcdatamodeld */; };
 		DC58828F24534A16004883FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC58828E24534A16004883FA /* Assets.xcassets */; };
 		DC58829224534A16004883FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC58829024534A16004883FA /* LaunchScreen.storyboard */; };
+		DC9544C32455FB68008642FB /* EditionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9544C22455FB68008642FB /* EditionsTableViewController.swift */; };
+		DC9544C52455FBD5008642FB /* Edition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9544C42455FBD5008642FB /* Edition.swift */; };
+		DC9544C72455FC7B008642FB /* EditionDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9544C62455FC7B008642FB /* EditionDetailTableViewController.swift */; };
+		DC9544C92455FE51008642FB /* SectionsNoSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9544C82455FE51008642FB /* SectionsNoSearchTableViewController.swift */; };
+		DC9544CB24561B7F008642FB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9544CA24561B7F008642FB /* TabBarViewController.swift */; };
+		DCD04E3124DCE60E007F3803 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD04E3024DCE60E007F3803 /* LoginViewController.swift */; };
+		DCD04E3324E05D0D007F3803 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD04E3224E05D0D007F3803 /* Extensions.swift */; };
+		DCE68BAD2460BBCB00E0AB20 /* SeniorWillsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE68BAC2460BBCB00E0AB20 /* SeniorWillsTableViewController.swift */; };
+		DCE68BAF2460BC5D00E0AB20 /* SeniorWill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE68BAE2460BC5D00E0AB20 /* SeniorWill.swift */; };
+		DCE68BB12460C09F00E0AB20 /* SeniorWillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE68BB02460C09F00E0AB20 /* SeniorWillDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DC578F622453EA4700331BF2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DC578F612453EA4700331BF2 /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		DC58827D24534A14004883FA /* devils-advocate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devils-advocate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1F47C728BEC717ED5BAC64 /* Pods_devils_advocate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devils_advocate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3524FF201B40CC4B7C2489BB /* Pods-devils-advocate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devils-advocate.release.xcconfig"; path = "Target Support Files/Pods-devils-advocate/Pods-devils-advocate.release.xcconfig"; sourceTree = "<group>"; };
+		9C686E825ECDA1DE47A62986 /* Pods-devils-advocate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devils-advocate.debug.xcconfig"; path = "Target Support Files/Pods-devils-advocate/Pods-devils-advocate.debug.xcconfig"; sourceTree = "<group>"; };
+		DC05BD212453530900840984 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/New Folder With Items 2/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC05BD23245355B200840984 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		DC05BD25245355E400840984 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		DC05BD2724536D0500840984 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		DC05BD29245372D600840984 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		DC578F632454BC3000331BF2 /* SectionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsTableViewController.swift; sourceTree = "<group>"; };
+		DC578F652454BC6E00331BF2 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		DC578F672454BE7900331BF2 /* SectionDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetailTableViewController.swift; sourceTree = "<group>"; };
+		DC578F692454C07300331BF2 /* addedFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addedFeatures.swift; sourceTree = "<group>"; };
+		DC578F6B2454C1DF00331BF2 /* AuthorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsTableViewController.swift; sourceTree = "<group>"; };
+		DC578F6D2454C2A600331BF2 /* AuthorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailViewController.swift; sourceTree = "<group>"; };
+		DC578F6F2454D09A00331BF2 /* AuthorDetailArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailArticlesTableViewController.swift; sourceTree = "<group>"; };
+		DC58827D24534A14004883FA /* The DA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The DA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC58828024534A14004883FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC58828224534A14004883FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DC58828424534A14004883FA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +81,16 @@
 		DC58828E24534A16004883FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC58829124534A16004883FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC58829324534A16004883FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9544C22455FB68008642FB /* EditionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditionsTableViewController.swift; sourceTree = "<group>"; };
+		DC9544C42455FBD5008642FB /* Edition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edition.swift; sourceTree = "<group>"; };
+		DC9544C62455FC7B008642FB /* EditionDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditionDetailTableViewController.swift; sourceTree = "<group>"; };
+		DC9544C82455FE51008642FB /* SectionsNoSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsNoSearchTableViewController.swift; sourceTree = "<group>"; };
+		DC9544CA24561B7F008642FB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DCD04E3024DCE60E007F3803 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DCD04E3224E05D0D007F3803 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DCE68BAC2460BBCB00E0AB20 /* SeniorWillsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorWillsTableViewController.swift; sourceTree = "<group>"; };
+		DCE68BAE2460BC5D00E0AB20 /* SeniorWill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorWill.swift; sourceTree = "<group>"; };
+		DCE68BB02460C09F00E0AB20 /* SeniorWillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorWillDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,24 +98,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7412EE5131863BBD9E288B3A /* Pods_devils_advocate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472D4C9BEA82AB3088153333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F47C728BEC717ED5BAC64 /* Pods_devils_advocate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FE79E5C5A44E0F6CA154431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C686E825ECDA1DE47A62986 /* Pods-devils-advocate.debug.xcconfig */,
+				3524FF201B40CC4B7C2489BB /* Pods-devils-advocate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC58827424534A14004883FA = {
 			isa = PBXGroup;
 			children = (
 				DC58827F24534A14004883FA /* devils-advocate */,
 				DC58827E24534A14004883FA /* Products */,
+				4FE79E5C5A44E0F6CA154431 /* Pods */,
+				472D4C9BEA82AB3088153333 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DC58827E24534A14004883FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC58827D24534A14004883FA /* devils-advocate.app */,
+				DC58827D24534A14004883FA /* The DA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,14 +144,36 @@
 			isa = PBXGroup;
 			children = (
 				DC58828024534A14004883FA /* AppDelegate.swift */,
+				DC578F692454C07300331BF2 /* addedFeatures.swift */,
+				DC578F632454BC3000331BF2 /* SectionsTableViewController.swift */,
 				DC58828224534A14004883FA /* SceneDelegate.swift */,
+				DC9544C82455FE51008642FB /* SectionsNoSearchTableViewController.swift */,
+				DC578F672454BE7900331BF2 /* SectionDetailTableViewController.swift */,
 				DC58828424534A14004883FA /* FirstViewController.swift */,
 				DC58828624534A14004883FA /* SecondViewController.swift */,
 				DC58828824534A14004883FA /* Main.storyboard */,
+				DC9544CA24561B7F008642FB /* TabBarViewController.swift */,
+				DC9544C22455FB68008642FB /* EditionsTableViewController.swift */,
+				DC9544C42455FBD5008642FB /* Edition.swift */,
+				DC9544C62455FC7B008642FB /* EditionDetailTableViewController.swift */,
+				DC578F6F2454D09A00331BF2 /* AuthorDetailArticlesTableViewController.swift */,
+				DC05BD2724536D0500840984 /* ArticleDetailViewController.swift */,
+				DCE68BAC2460BBCB00E0AB20 /* SeniorWillsTableViewController.swift */,
+				DCE68BAE2460BC5D00E0AB20 /* SeniorWill.swift */,
+				DCE68BB02460C09F00E0AB20 /* SeniorWillDetailViewController.swift */,
+				DC578F6D2454C2A600331BF2 /* AuthorDetailViewController.swift */,
+				DC578F6B2454C1DF00331BF2 /* AuthorsTableViewController.swift */,
+				DC05BD23245355B200840984 /* ArticlesTableViewController.swift */,
+				DCD04E3024DCE60E007F3803 /* LoginViewController.swift */,
+				DC05BD25245355E400840984 /* Article.swift */,
+				DC578F652454BC6E00331BF2 /* Section.swift */,
+				DC05BD29245372D600840984 /* Author.swift */,
 				DC58828E24534A16004883FA /* Assets.xcassets */,
 				DC58829024534A16004883FA /* LaunchScreen.storyboard */,
 				DC58829324534A16004883FA /* Info.plist */,
+				DC05BD212453530900840984 /* GoogleService-Info.plist */,
 				DC58828B24534A14004883FA /* devils_advocate.xcdatamodeld */,
+				DCD04E3224E05D0D007F3803 /* Extensions.swift */,
 			);
 			path = "devils-advocate";
 			sourceTree = "<group>";
@@ -80,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC58829624534A16004883FA /* Build configuration list for PBXNativeTarget "devils-advocate" */;
 			buildPhases = (
+				4DA149800339502959724AAC /* [CP] Check Pods Manifest.lock */,
 				DC58827924534A14004883FA /* Sources */,
 				DC58827A24534A14004883FA /* Frameworks */,
 				DC58827B24534A14004883FA /* Resources */,
+				DC578F622453EA4700331BF2 /* Embed Frameworks */,
+				74C882BC3D68F2162CFA9093 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,7 +198,7 @@
 			);
 			name = "devils-advocate";
 			productName = "devils-advocate";
-			productReference = DC58827D24534A14004883FA /* devils-advocate.app */;
+			productReference = DC58827D24534A14004883FA /* The DA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC58829224534A16004883FA /* LaunchScreen.storyboard in Resources */,
+				DC05BD222453530900840984 /* GoogleService-Info.plist in Resources */,
 				DC58828F24534A16004883FA /* Assets.xcassets in Resources */,
 				DC58828A24534A14004883FA /* Main.storyboard in Resources */,
 			);
@@ -139,15 +248,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DA149800339502959724AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-devils-advocate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C882BC3D68F2162CFA9093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devils-advocate/Pods-devils-advocate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devils-advocate/Pods-devils-advocate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-devils-advocate/Pods-devils-advocate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC58827924534A14004883FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC05BD26245355E400840984 /* Article.swift in Sources */,
+				DC578F6E2454C2A600331BF2 /* AuthorDetailViewController.swift in Sources */,
+				DC9544C52455FBD5008642FB /* Edition.swift in Sources */,
+				DC05BD24245355B200840984 /* ArticlesTableViewController.swift in Sources */,
+				DC9544CB24561B7F008642FB /* TabBarViewController.swift in Sources */,
+				DC578F6A2454C07300331BF2 /* addedFeatures.swift in Sources */,
 				DC58828724534A14004883FA /* SecondViewController.swift in Sources */,
+				DCE68BAF2460BC5D00E0AB20 /* SeniorWill.swift in Sources */,
+				DC578F6C2454C1DF00331BF2 /* AuthorsTableViewController.swift in Sources */,
+				DCE68BB12460C09F00E0AB20 /* SeniorWillDetailViewController.swift in Sources */,
+				DC578F642454BC3000331BF2 /* SectionsTableViewController.swift in Sources */,
+				DC578F662454BC6E00331BF2 /* Section.swift in Sources */,
+				DC05BD2A245372D600840984 /* Author.swift in Sources */,
+				DCD04E3124DCE60E007F3803 /* LoginViewController.swift in Sources */,
+				DC9544C72455FC7B008642FB /* EditionDetailTableViewController.swift in Sources */,
 				DC58828D24534A14004883FA /* devils_advocate.xcdatamodeld in Sources */,
 				DC58828524534A14004883FA /* FirstViewController.swift in Sources */,
+				DC578F682454BE7900331BF2 /* SectionDetailTableViewController.swift in Sources */,
+				DC578F702454D09A00331BF2 /* AuthorDetailArticlesTableViewController.swift in Sources */,
+				DC9544C32455FB68008642FB /* EditionsTableViewController.swift in Sources */,
 				DC58828124534A14004883FA /* AppDelegate.swift in Sources */,
+				DCD04E3324E05D0D007F3803 /* Extensions.swift in Sources */,
+				DC05BD2824536D0500840984 /* ArticleDetailViewController.swift in Sources */,
+				DCE68BAD2460BBCB00E0AB20 /* SeniorWillsTableViewController.swift in Sources */,
+				DC9544C92455FE51008642FB /* SectionsNoSearchTableViewController.swift in Sources */,
 				DC58828324534A14004883FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +462,7 @@
 		};
 		DC58829724534A16004883FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C686E825ECDA1DE47A62986 /* Pods-devils-advocate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,7 +473,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "isabellahochschild.devils-advocate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The DA";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,6 +481,7 @@
 		};
 		DC58829824534A16004883FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3524FF201B40CC4B7C2489BB /* Pods-devils-advocate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "isabellahochschild.devils-advocate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The DA";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

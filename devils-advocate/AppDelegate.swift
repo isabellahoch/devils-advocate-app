@@ -8,14 +8,30 @@
 
 import UIKit
 import CoreData
+import Firebase
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    var window: UIWindow?
+    
+    let defaults = UserDefaults.standard
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        if defaults.bool(forKey: "First Launch") == true {
+            print("second+ launch!")
+            defaults.set(true, forKey: "First Launch")
+        }
+        else {
+            print("first")
+            // segue to password page!
+            self.window?.rootViewController!.performSegue(withIdentifier: "goToPasswordPage", sender: nil)
+            defaults.set(true, forKey: "First Launch")
+        }
         return true
     }
 
@@ -31,6 +47,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        print(url)
+        
+        if let scheme = url.scheme,
+        scheme.localizedCaseInsensitiveCompare("thedevilsadvocate") == .orderedSame,
+        let view = url.host {
+            print(view)
+        }
+            
+        var article_id = "native-american-appropriation-in-the-super-bowl"
+        do {
+            try article_id = String(contentsOf: url)
+        }
+        catch {
+            print("error, oopsie")
+        }
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
+        ref.child("articles").child(article_id).observeSingleEvent(of: .value, with: { (snapshot) in
+          // Get user value
+            let dict = snapshot.value as? [String:Any]
+            let newArticle = Article(json: dict!)
+            self.window?.rootViewController!.performSegue(withIdentifier: "directlyToArticle", sender: newArticle)
+          // ...
+          }) { (error) in
+            print(error.localizedDescription)
+        }
+        return true
     }
 
     // MARK: - Core Data stack
