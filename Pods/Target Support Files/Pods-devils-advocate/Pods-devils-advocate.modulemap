@@ -1,0 +1,6 @@
+framework module Pods_devils_advocate {
+  umbrella header "Pods-devils-advocate-umbrella.h"
+
+  export *
+  module * { export * }
+}
