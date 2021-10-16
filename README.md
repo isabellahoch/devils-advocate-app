@@ -8,7 +8,7 @@ Clone this repository and open the **.xcodeproj** file, then run the simulator.
 ## Tech Stack
 - Swift
 - Xcode
-- Firebase: used for database, with the help of pyrebase Python API wrapper
+- Firebase
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
